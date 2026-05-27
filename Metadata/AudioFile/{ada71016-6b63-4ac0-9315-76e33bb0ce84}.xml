@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{1caa0c0f-a4f4-4030-9962-3102cb2fe1ca}">
+	<object class="AudioFile" id="{ada71016-6b63-4ac0-9315-76e33bb0ce84}">
 		<property name="assetPath">
 			<value>Music/FmodProject/Sections/Intro/Synth2_Intro_180bpm.wav</value>
 		</property>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>6.666666666666667</value>
+			<value>2.6666666666666665</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
