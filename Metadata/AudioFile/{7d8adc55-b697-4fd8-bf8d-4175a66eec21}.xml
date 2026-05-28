@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{2d748760-347c-4b2a-965f-c242c1adf5e4}">
+	<object class="AudioFile" id="{7d8adc55-b697-4fd8-bf8d-4175a66eec21}">
 		<property name="assetPath">
-			<value>Music/FmodProject/Sections/Chorus(LeitMotif)/Em/Guitar_Em_180bpm.wav</value>
+			<value>Synth_Motif_Em_180bpm.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
