@@ -1147,7 +1147,14 @@
 			<destination>{b5a20cb8-cb5d-434e-a9e2-39a912b1a44b}</destination>
 		</relationship>
 	</object>
-	<object class="ThreeEQEffect" id="{7ce5fac1-df6f-4b66-95b7-36ce0f565b49}" />
+	<object class="ThreeEQEffect" id="{7ce5fac1-df6f-4b66-95b7-36ce0f565b49}">
+		<property name="lowGain">
+			<value>-2</value>
+		</property>
+		<property name="lowCrossover">
+			<value>340</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{2c008b8b-c4d3-405d-a71c-5c51ca31e8c4}" />
 	<object class="AutomationPoint" id="{47d2c746-09a1-435d-979b-1c57d2696b8f}">
 		<property name="position">
