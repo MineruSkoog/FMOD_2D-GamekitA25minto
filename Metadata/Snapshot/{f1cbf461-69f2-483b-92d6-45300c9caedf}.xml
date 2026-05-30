@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{f1cbf461-69f2-483b-92d6-45300c9caedf}">
+		<property name="note">
+			<value>Affects pitch slightly to give a "drunk and vulnerable feeling" when on low health</value>
+		</property>
+		<property name="name">
+			<value>Low Health</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{d5a1f6c9-9b70-40e9-a1ab-23687f87b995}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{8107cfda-7a3b-4e30-97e6-1975b6cd44ad}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{bc44127a-dd19-492d-9357-c97f272bb99d}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{10b30176-389a-466d-8897-c26d560b18c2}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{af0eb913-2c90-4a7e-9b15-6fb771c86ad2}</destination>
+			<destination>{7df862a7-b660-45ec-90c9-f4e750f7a4a5}</destination>
+			<destination>{2d2b9cb5-fb75-4974-8574-babe2b6c9d96}</destination>
+			<destination>{6ac98f4a-3748-4116-baf8-7ced1a0e62f8}</destination>
+			<destination>{7b5a96b1-13df-442f-b87e-430654723cab}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{ae0a11a7-d430-454e-92f9-3342b7c85530}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{d5a1f6c9-9b70-40e9-a1ab-23687f87b995}">
+		<property name="snapshotIntensity">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="MarkerTrack" id="{8107cfda-7a3b-4e30-97e6-1975b6cd44ad}" />
+	<object class="Timeline" id="{bc44127a-dd19-492d-9357-c97f272bb99d}" />
+	<object class="SnapshotMasterTrack" id="{10b30176-389a-466d-8897-c26d560b18c2}" />
+	<object class="SnapshotProperty" id="{af0eb913-2c90-4a7e-9b15-6fb771c86ad2}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-5.5</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{0c002ced-501d-4cf0-8945-4392fda70e5f}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{7df862a7-b660-45ec-90c9-f4e750f7a4a5}">
+		<property name="propertyName">
+			<value>lowGain</value>
+		</property>
+		<property name="value">
+			<value>-2.5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{3d74ef06-5684-4134-85b3-1d9d1ae92e40}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{e6012f7d-41db-4c34-a795-b3945b6ce8f9}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{2d2b9cb5-fb75-4974-8574-babe2b6c9d96}">
+		<property name="propertyName">
+			<value>midGain</value>
+		</property>
+		<property name="value">
+			<value>-12.5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{6106eca2-a415-4ef3-92c9-1ea93d68117f}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{e6012f7d-41db-4c34-a795-b3945b6ce8f9}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{6ac98f4a-3748-4116-baf8-7ced1a0e62f8}">
+		<property name="propertyName">
+			<value>pitch</value>
+		</property>
+		<property name="value">
+			<value>-0.300000012</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{e8a31217-c571-47a5-9f4d-08a7663b9753}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{0c002ced-501d-4cf0-8945-4392fda70e5f}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{7b5a96b1-13df-442f-b87e-430654723cab}">
+		<property name="propertyName">
+			<value>highGain</value>
+		</property>
+		<property name="value">
+			<value>-76</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{e6012f7d-41db-4c34-a795-b3945b6ce8f9}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{ae0a11a7-d430-454e-92f9-3342b7c85530}">
+		<relationship name="mixerStrip">
+			<destination>{0c002ced-501d-4cf0-8945-4392fda70e5f}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{3d74ef06-5684-4134-85b3-1d9d1ae92e40}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="attackTime">
+			<value>2200</value>
+		</property>
+		<property name="peakValue">
+			<value>-7.51111221</value>
+		</property>
+		<property name="holdTime">
+			<value>1807.6925</value>
+		</property>
+		<property name="decayTime">
+			<value>7461.53809</value>
+		</property>
+		<property name="sustainValue">
+			<value>-7.51111221</value>
+		</property>
+		<property name="releaseTime">
+			<value>2600</value>
+		</property>
+		<property name="finalValue">
+			<value>-0.977779388</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{6106eca2-a415-4ef3-92c9-1ea93d68117f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="attackTime">
+			<value>1403.84619</value>
+		</property>
+		<property name="peakValue">
+			<value>-11.5555592</value>
+		</property>
+		<property name="holdTime">
+			<value>1403.84619</value>
+		</property>
+		<property name="decayTime">
+			<value>3019.23145</value>
+		</property>
+		<property name="sustainValue">
+			<value>-9.82222366</value>
+		</property>
+		<property name="releaseTime">
+			<value>5200</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{e8a31217-c571-47a5-9f4d-08a7663b9753}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="attackTime">
+			<value>2400</value>
+		</property>
+		<property name="peakValue">
+			<value>-8.88890076</value>
+		</property>
+		<property name="holdTime">
+			<value>6600</value>
+		</property>
+		<property name="sustainValue">
+			<value>-8.88890076</value>
+		</property>
+		<property name="releaseTime">
+			<value>3200</value>
+		</property>
+	</object>
+</objects>
