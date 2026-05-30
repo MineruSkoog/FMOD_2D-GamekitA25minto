@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8537e8e7-2098-4910-93c0-d41f9c53a715}">
+		<property name="note">
+			<value>Uses parameter "TonalChecker" Meant to check where the listener is in the song to play a stinger which sticks to the curren tonal center.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>
@@ -12,6 +15,9 @@
 		</property>
 		<relationship name="folder">
 			<destination>{ceb8ca76-af76-476e-a60a-d03461e0e03b}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{2aec8b81-b56a-453c-9a87-81edafc52e47}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{75d9a01e-ad56-4365-9e33-cc7093f13ed2}</destination>

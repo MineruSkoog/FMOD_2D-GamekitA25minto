@@ -4,5 +4,19 @@
 		<property name="name">
 			<value>Master</value>
 		</property>
+		<relationship name="items">
+			<destination>{d44abf0b-f94a-4a40-8fc7-9cddd7952f80}</destination>
+			<destination>{2aec8b81-b56a-453c-9a87-81edafc52e47}</destination>
+		</relationship>
+	</object>
+	<object class="Tag" id="{d44abf0b-f94a-4a40-8fc7-9cddd7952f80}">
+		<property name="name">
+			<value>Tonal</value>
+		</property>
+	</object>
+	<object class="Tag" id="{2aec8b81-b56a-453c-9a87-81edafc52e47}">
+		<property name="name">
+			<value>TonalChecker</value>
+		</property>
 	</object>
 </objects>
