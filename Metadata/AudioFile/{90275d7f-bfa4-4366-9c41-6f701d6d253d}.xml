@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{1bc8596c-2c4c-4b90-9434-554ae4c208a0}">
+	<object class="AudioFile" id="{90275d7f-bfa4-4366-9c41-6f701d6d253d}">
 		<property name="assetPath">
-			<value>Music/FmodProject/Stingers/PickupKey/Victory_Stinger_Em.wav</value>
+			<value>Music/FmodProject/Stingers/PickupKey/Victory_Stinger_Bbm.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
