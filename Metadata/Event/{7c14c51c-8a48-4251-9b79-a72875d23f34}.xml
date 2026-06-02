@@ -140,7 +140,6 @@
 		<relationship name="markers">
 			<destination>{06d770e5-099a-49d2-aed0-5c4da6c9ff86}</destination>
 			<destination>{9dff3303-fba8-42a6-b48c-d102bf8c5c91}</destination>
-			<destination>{84c8b822-cd0f-45cb-9434-54ca4b4f6c3f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{00518cd5-e093-4022-bb09-9fae66b0aa6d}">
@@ -382,26 +381,6 @@
 			<destination>{0fa0a14d-c696-441f-9636-2cff91bb4386}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionRegion" id="{84c8b822-cd0f-45cb-9434-54ca4b4f6c3f}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>5.333333333333333</value>
-		</property>
-		<property name="quantizationInterval">
-			<value>1</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{ed7e82ec-16f9-4793-9a97-08a470097c53}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{4a640176-b38b-4fc5-8afb-3d37715e207d}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{359343e8-cf81-45d9-ac80-429a7c776de0}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusEffectChain" id="{30dfb5e5-b1ba-416a-9c91-7744b0aeb422}">
 		<relationship name="effects">
 			<destination>{d9fcbfe7-dfd1-4b4a-a05e-e05181bf024e}</destination>
@@ -478,17 +457,6 @@
 			<destination>{e3027cd4-a502-4180-9e42-154544384c19}</destination>
 			<destination>{ae778adc-311f-484f-a1aa-4692e5ed6ff8}</destination>
 			<destination>{53284379-4b9a-43aa-860a-ffbc898e2297}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{359343e8-cf81-45d9-ac80-429a7c776de0}">
-		<property name="minimum">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>10</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{c48946a2-7178-4c23-96c3-34f48422f0f3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d9fcbfe7-dfd1-4b4a-a05e-e05181bf024e}" />
