@@ -13,5 +13,8 @@
 		<property name="speakerFormat">
 			<value>1</value>
 		</property>
+		<property name="sampleDataAlign4K">
+			<value>true</value>
+		</property>
 	</object>
 </objects>
