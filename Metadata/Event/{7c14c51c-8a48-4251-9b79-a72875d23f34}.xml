@@ -355,8 +355,8 @@
 		<property name="length">
 			<value>5.333333333333333</value>
 		</property>
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
+		<property name="triggerConditionMode">
+			<value>1</value>
 		</property>
 		<property name="name">
 			<value>Intro</value>
@@ -369,6 +369,7 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{43f52394-8801-4788-b7eb-7418b9e825d6}</destination>
+			<destination>{a8229694-5aa0-4bf5-bd1c-e8f011f9ada1}</destination>
 		</relationship>
 		<relationship name="transitionTimeline">
 			<destination>{0fa0a14d-c696-441f-9636-2cff91bb4386}</destination>
@@ -442,6 +443,17 @@
 		</property>
 		<property name="isInverted">
 			<value>true</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{a05e7496-007a-412e-b694-9b51a1c981a6}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{a8229694-5aa0-4bf5-bd1c-e8f011f9ada1}">
+		<property name="minimum">
+			<value>3</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{a05e7496-007a-412e-b694-9b51a1c981a6}</destination>
