@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{147df68f-74d2-48a6-be27-942c876f3829}">
 		<property name="name">
-			<value>Combat(Distance)</value>
+			<value>Keylocator(Distance)</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{0c002ced-501d-4cf0-8945-4392fda70e5f}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="volume">
 			<value>-1</value>
 		</property>
@@ -23,11 +26,21 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{f3f000bd-e4a0-4cf5-ad6f-97d02e897268}">
 		<relationship name="effects">
-			<destination>{e6012f7d-41db-4c34-a795-b3945b6ce8f9}</destination>
+			<destination>{eed67deb-fa2d-461f-b53a-1dc6b25bc436}</destination>
 			<destination>{70eca0c2-c1fb-481e-872b-f7e04bb94d85}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e8f3ec3e-49ab-4d0a-8b2e-43d82edf2685}" />
-	<object class="ThreeEQEffect" id="{e6012f7d-41db-4c34-a795-b3945b6ce8f9}" />
+	<object class="MultibandEqEffect" id="{eed67deb-fa2d-461f-b53a-1dc6b25bc436}">
+		<property name="filterTypeA">
+			<value>5</value>
+		</property>
+		<property name="frequencyA">
+			<value>56.355999</value>
+		</property>
+		<property name="qualityA">
+			<value>0.644206941</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{70eca0c2-c1fb-481e-872b-f7e04bb94d85}" />
 </objects>
