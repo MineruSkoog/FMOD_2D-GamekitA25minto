@@ -874,6 +874,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<relationship name="parameters">
+			<destination>{0e35eb29-829e-496a-a549-7fbd1f605939}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{7c14c51c-8a48-4251-9b79-a72875d23f34}</destination>
 		</relationship>
@@ -3571,6 +3574,11 @@
 		</relationship>
 		<relationship name="relatedModule">
 			<destination>{35f83185-b962-4183-8b96-985026b03797}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProperty" id="{0e35eb29-829e-496a-a549-7fbd1f605939}">
+		<relationship name="parameter">
+			<destination>{579a661c-5b52-40e3-bd85-de502775e62c}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceFadeOutCurve" id="{733fbd50-2102-4f11-ac49-97626e13110d}">
