@@ -7,6 +7,8 @@
 		<relationship name="items">
 			<destination>{d44abf0b-f94a-4a40-8fc7-9cddd7952f80}</destination>
 			<destination>{2aec8b81-b56a-453c-9a87-81edafc52e47}</destination>
+			<destination>{63abc4d6-5b8e-4941-aa3d-3a95ada55988}</destination>
+			<destination>{4c78707c-dd1b-4e2e-b1e0-5ef767b932f1}</destination>
 		</relationship>
 	</object>
 	<object class="Tag" id="{d44abf0b-f94a-4a40-8fc7-9cddd7952f80}">
@@ -17,6 +19,16 @@
 	<object class="Tag" id="{2aec8b81-b56a-453c-9a87-81edafc52e47}">
 		<property name="name">
 			<value>TonalChecker</value>
+		</property>
+	</object>
+	<object class="Tag" id="{63abc4d6-5b8e-4941-aa3d-3a95ada55988}">
+		<property name="name">
+			<value>Horizantal</value>
+		</property>
+	</object>
+	<object class="Tag" id="{4c78707c-dd1b-4e2e-b1e0-5ef767b932f1}">
+		<property name="name">
+			<value>Combat</value>
 		</property>
 	</object>
 </objects>
