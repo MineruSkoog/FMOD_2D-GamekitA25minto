@@ -15,8 +15,14 @@
 		<property name="maximum">
 			<value>3</value>
 		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{e7d47856-09df-47c3-b8f3-de8109b8b110}</destination>
