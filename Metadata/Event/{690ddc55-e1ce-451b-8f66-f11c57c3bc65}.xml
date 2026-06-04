@@ -113,6 +113,9 @@ Boss parameter activates guitars and increases the audio for lead synth.
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{50507a60-58db-43cf-abfa-823a030830e8}">
+		<relationship name="masters">
+			<destination>{4a4457c3-5cd5-46aa-b98c-e22e63a70cde}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{49a30709-1bda-4e14-8156-40d096e8e98b}</destination>
 		</relationship>
