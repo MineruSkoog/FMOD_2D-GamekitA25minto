@@ -5356,7 +5356,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<value>3203.24121</value>
 		</property>
 		<property name="frequencyD">
-			<value>34.2754593</value>
+			<value>41.3016243</value>
 		</property>
 		<property name="qualityA">
 			<value>0.479999989</value>
@@ -5368,7 +5368,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<value>2.60000014</value>
 		</property>
 		<property name="qualityD">
-			<value>0.393034458</value>
+			<value>0.455827594</value>
 		</property>
 		<property name="gainA">
 			<value>-6.20689583</value>
