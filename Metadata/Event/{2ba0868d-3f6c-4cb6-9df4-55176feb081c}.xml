@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2ba0868d-3f6c-4cb6-9df4-55176feb081c}">
+		<property name="note">
+			<value>Fades out Boss music and or stops the event</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -12,6 +15,9 @@
 		</property>
 		<relationship name="folder">
 			<destination>{dad12844-3cfd-4053-a090-6c722825ca42}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{7f9e09c3-c855-4e46-a37e-3b46645d2e84}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{a16fd7bd-4d63-4958-8d86-a107e32ad7a9}</destination>
@@ -77,6 +83,7 @@
 		<relationship name="modules">
 			<destination>{b38b5c01-5519-40c1-8a24-7763d69382f9}</destination>
 			<destination>{1e60b380-0933-4308-91f5-1aa4253642aa}</destination>
+			<destination>{6904a74a-e402-40d1-ad2e-489585262e77}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f33a942f-6d95-451d-a4f4-bb4a1e481f94}</destination>
@@ -87,6 +94,7 @@
 			<destination>{3b92a9b7-6413-4be3-9afc-c404c4eeca27}</destination>
 			<destination>{b38b5c01-5519-40c1-8a24-7763d69382f9}</destination>
 			<destination>{1e60b380-0933-4308-91f5-1aa4253642aa}</destination>
+			<destination>{6904a74a-e402-40d1-ad2e-489585262e77}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{51b8ab61-93b8-4b71-9a35-19af0f1a55e0}">
@@ -157,6 +165,20 @@
 		</property>
 		<relationship name="commandTarget">
 			<destination>{6fba809e-cd1d-4f4e-a462-3e7846ef38e4}</destination>
+		</relationship>
+	</object>
+	<object class="CommandSound" id="{6904a74a-e402-40d1-ad2e-489585262e77}">
+		<property name="start">
+			<value>4.5</value>
+		</property>
+		<property name="length">
+			<value>17.670468750000001</value>
+		</property>
+		<property name="commandType">
+			<value>3</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{8488e67c-b6d9-4c71-b625-0523a4fda261}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f33a942f-6d95-451d-a4f4-bb4a1e481f94}">

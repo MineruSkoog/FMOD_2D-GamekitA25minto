@@ -3943,11 +3943,8 @@ Boss parameter activates guitars and increases the audio for lead synth.
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
 		</property>
-		<property name="speedAscending">
-			<value>0.31000000238418579</value>
-		</property>
 		<property name="speedDescending">
-			<value>0.28999999165534973</value>
+			<value>25</value>
 		</property>
 		<property name="asymmetric">
 			<value>true</value>

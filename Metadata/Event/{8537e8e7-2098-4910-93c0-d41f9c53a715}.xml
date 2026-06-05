@@ -74,7 +74,7 @@
 			<value>1</value>
 		</property>
 		<property name="voiceStealing">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<property name="priority">
 			<value>3</value>
@@ -186,6 +186,9 @@
 		<property name="voiceStealing">
 			<value>3</value>
 		</property>
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
 		<relationship name="triggerConditions">
 			<destination>{75846c38-32b3-4cad-893b-b82bc3be94e0}</destination>
 		</relationship>
@@ -199,6 +202,9 @@
 		</property>
 		<property name="voiceStealing">
 			<value>3</value>
+		</property>
+		<property name="maxVoices">
+			<value>1</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{dbc23e07-e24c-4c3b-aa93-749a6ffbc1e4}</destination>
