@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7c14c51c-8a48-4251-9b79-a72875d23f34}">
 		<property name="note">
-			<value>Uses a parameter with seek speed to increase volume when going deeper in the menu.
+			<value>Uses a parameter which aims to increase volume when going deeper in the menu. Made for the sake of understanding the logic on how to do so.
 </value>
 		</property>
 		<property name="color">
@@ -18,7 +18,7 @@
 			<destination>{370c8cd4-9904-4c60-b58d-da249dc7c3c6}</destination>
 		</relationship>
 		<relationship name="tags">
-			<destination>{d4440b79-6033-4a91-ba90-5c14b0111228}</destination>
+			<destination>{3cde3b81-f6f2-4eb2-857e-7539418093b6}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{f5c639e1-d30a-432e-85e6-f76e4e887e8f}</destination>

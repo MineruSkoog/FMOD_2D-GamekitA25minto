@@ -12,6 +12,9 @@
 			<destination>{d4c3fad2-018f-4172-bdff-36658d40da3a}</destination>
 			<destination>{142de99e-6f76-41e8-8a05-8755e452a7ac}</destination>
 			<destination>{d4440b79-6033-4a91-ba90-5c14b0111228}</destination>
+			<destination>{3cde3b81-f6f2-4eb2-857e-7539418093b6}</destination>
+			<destination>{b447bb72-a228-4f06-8aaf-2cee5f74eb9b}</destination>
+			<destination>{7f9e09c3-c855-4e46-a37e-3b46645d2e84}</destination>
 		</relationship>
 	</object>
 	<object class="Tag" id="{d44abf0b-f94a-4a40-8fc7-9cddd7952f80}">
@@ -47,6 +50,21 @@
 	<object class="Tag" id="{d4440b79-6033-4a91-ba90-5c14b0111228}">
 		<property name="name">
 			<value>VolumeIntro</value>
+		</property>
+	</object>
+	<object class="Tag" id="{3cde3b81-f6f2-4eb2-857e-7539418093b6}">
+		<property name="name">
+			<value>DepthMenu</value>
+		</property>
+	</object>
+	<object class="Tag" id="{b447bb72-a228-4f06-8aaf-2cee5f74eb9b}">
+		<property name="name">
+			<value>Boss</value>
+		</property>
+	</object>
+	<object class="Tag" id="{7f9e09c3-c855-4e46-a37e-3b46645d2e84}">
+		<property name="name">
+			<value>BossDeath</value>
 		</property>
 	</object>
 </objects>
