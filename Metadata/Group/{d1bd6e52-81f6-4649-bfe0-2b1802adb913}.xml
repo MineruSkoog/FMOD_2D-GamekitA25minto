@@ -5,14 +5,11 @@
 			<value>Magenta</value>
 		</property>
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-6.5</value>
 		</property>
 		<property name="name">
 			<value>MusicStinger</value>
 		</property>
-		<relationship name="masters">
-			<destination>{4a4457c3-5cd5-46aa-b98c-e22e63a70cde}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{5d26a101-01cc-4f3d-8983-9bec03abb66f}</destination>
 		</relationship>

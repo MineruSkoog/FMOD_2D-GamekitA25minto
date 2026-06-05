@@ -24,9 +24,11 @@
 		</relationship>
 		<relationship name="snapshotProperties">
 			<destination>{590b65e7-6fa5-4d68-b038-95ae20a58480}</destination>
+			<destination>{b8f5fe5c-e0ce-427e-a0cc-4163883ddb5a}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{3bd17751-5fc4-4883-8d7c-d005c62d181d}</destination>
+			<destination>{4107876d-6d70-43f1-b4cc-6afa4eafb4ac}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{78c6f9df-77b9-4a8d-901d-d7552b36916f}" />
@@ -47,9 +49,28 @@
 			<destination>{9ee78ecf-f27c-43e8-882d-61fa2b699185}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotProperty" id="{b8f5fe5c-e0ce-427e-a0cc-4163883ddb5a}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-2</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{5d5d6621-4860-4402-afbb-4978e242923f}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{9943a6c2-2d04-4e0b-94d1-6f2da55b5029}</destination>
+		</relationship>
+	</object>
 	<object class="SnapshotTrack" id="{3bd17751-5fc4-4883-8d7c-d005c62d181d}">
 		<relationship name="mixerStrip">
 			<destination>{9ee78ecf-f27c-43e8-882d-61fa2b699185}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{4107876d-6d70-43f1-b4cc-6afa4eafb4ac}">
+		<relationship name="mixerStrip">
+			<destination>{9943a6c2-2d04-4e0b-94d1-6f2da55b5029}</destination>
 		</relationship>
 	</object>
 	<object class="SpectralSidechainModulator" id="{7106e79e-919a-473d-ab92-6248eab477af}">
@@ -62,5 +83,13 @@
 		<relationship name="sidechains">
 			<destination>{b4af0d51-2f41-4430-b9c8-3be5a42b50cd}</destination>
 		</relationship>
+	</object>
+	<object class="SeekModulator" id="{5d5d6621-4860-4402-afbb-4978e242923f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.28999999165534973</value>
+		</property>
 	</object>
 </objects>
