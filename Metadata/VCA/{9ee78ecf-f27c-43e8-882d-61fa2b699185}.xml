@@ -2,13 +2,12 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerVCA" id="{9ee78ecf-f27c-43e8-882d-61fa2b699185}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-4</value>
 		</property>
 		<property name="name">
 			<value>Cave</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{f899d84f-3c6a-41b1-9f12-65ea73468d11}</destination>
 			<destination>{b5ccd8ba-9def-4f00-87bb-7fdd8458d440}</destination>
 		</relationship>
 		<relationship name="masters">
@@ -16,27 +15,6 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
-		</relationship>
-	</object>
-	<object class="SpectralSidechainModulator" id="{f899d84f-3c6a-41b1-9f12-65ea73468d11}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="amount">
-			<value>7</value>
-		</property>
-		<property name="attackTime">
-			<value>280</value>
-		</property>
-		<property name="minimumThresholdLevel">
-			<value>-11.5</value>
-		</property>
-		<property name="maximumThresholdLevel">
-			<value>-2</value>
-		</property>
-		<relationship name="sidechains">
-			<destination>{95560c76-6baf-46a0-ae45-d0507f5d9dc6}</destination>
-			<destination>{46880329-6964-46da-8a45-fa19d8b183ad}</destination>
 		</relationship>
 	</object>
 	<object class="SidechainModulator" id="{b5ccd8ba-9def-4f00-87bb-7fdd8458d440}">
