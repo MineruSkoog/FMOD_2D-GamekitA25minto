@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerVCA" id="{4e55925a-e4d0-45e6-b520-e715deeaec2b}">
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<property name="name">
 			<value>LowHealth</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{9aacf8b5-f42a-446c-ad41-f45f1c6f8d98}</destination>
+		</relationship>
 		<relationship name="masters">
 			<destination>{3ab740d2-7c51-493f-96f8-03a43750b6cc}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+	</object>
+	<object class="SpectralSidechainModulator" id="{9aacf8b5-f42a-446c-ad41-f45f1c6f8d98}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>21</value>
+		</property>
+		<property name="minimumThresholdLevel">
+			<value>-23.3000011</value>
+		</property>
+		<property name="maximumThresholdLevel">
+			<value>-5.5</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{b4af0d51-2f41-4430-b9c8-3be5a42b50cd}</destination>
 		</relationship>
 	</object>
 </objects>

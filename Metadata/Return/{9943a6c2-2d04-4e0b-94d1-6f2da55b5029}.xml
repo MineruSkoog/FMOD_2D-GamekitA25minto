@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{9943a6c2-2d04-4e0b-94d1-6f2da55b5029}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
+		<property name="name">
+			<value>A</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{91f2b765-68f4-48b5-a4cd-5201e851f9bc}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{26955175-370f-4c84-9397-28875da6f377}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{91f2b765-68f4-48b5-a4cd-5201e851f9bc}">
+		<relationship name="effects">
+			<destination>{b4af0d51-2f41-4430-b9c8-3be5a42b50cd}</destination>
+			<destination>{c0433407-a799-4046-90db-4c7d662dc42a}</destination>
+			<destination>{ad6fa296-8850-4730-b5ad-9a6472598aa8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{26955175-370f-4c84-9397-28875da6f377}" />
+	<object class="SpectralSidechain" id="{b4af0d51-2f41-4430-b9c8-3be5a42b50cd}">
+		<property name="level">
+			<value>10</value>
+		</property>
+		<property name="minimumFrequency">
+			<value>72</value>
+		</property>
+		<property name="maximumFrequency">
+			<value>300</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{38dfe411-7e85-428a-b082-d268988d03af}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{c0433407-a799-4046-90db-4c7d662dc42a}" />
+	<object class="SFXReverbEffect" id="{ad6fa296-8850-4730-b5ad-9a6472598aa8}">
+		<property name="decayTime">
+			<value>3600</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>61.5</value>
+		</property>
+		<property name="diffusion">
+			<value>88</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>22</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-8</value>
+		</property>
+		<property name="highCut">
+			<value>6500</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>59</value>
+		</property>
+		<property name="wetLevel">
+			<value>6.5</value>
+		</property>
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+		<relationship name="automators">
+			<destination>{ffe304cb-51d4-4b98-ab34-0d54b076d62e}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{38dfe411-7e85-428a-b082-d268988d03af}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>level</value>
+		</property>
+		<property name="amount">
+			<value>21.5</value>
+		</property>
+		<relationship name="automators">
+			<destination>{87fe801e-141c-408d-a790-317e7c69a7a7}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{ffe304cb-51d4-4b98-ab34-0d54b076d62e}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>wetLevel</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{8b0ad385-7be9-433f-abef-98f28311c815}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{87fe801e-141c-408d-a790-317e7c69a7a7}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>amount</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{8b0ad385-7be9-433f-abef-98f28311c815}">
+		<relationship name="parameter">
+			<destination>{1f7dd802-6544-4340-8cb9-d8d8103be40b}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{b4c51306-dea5-4ccd-aa59-258aa296b310}</destination>
+			<destination>{95a952ea-52f2-4139-95c0-b6fa65f57adc}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{b4c51306-dea5-4ccd-aa59-258aa296b310}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-20</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{95a952ea-52f2-4139-95c0-b6fa65f57adc}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>2</value>
+		</property>
+	</object>
+</objects>

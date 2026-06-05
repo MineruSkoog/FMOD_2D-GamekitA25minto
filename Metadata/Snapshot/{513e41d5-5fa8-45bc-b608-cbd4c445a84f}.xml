@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{513e41d5-5fa8-45bc-b608-cbd4c445a84f}">
+		<property name="name">
+			<value>Cave</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{78c6f9df-77b9-4a8d-901d-d7552b36916f}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{2e285c10-bf68-40d4-8ad7-5c2ba792eb8d}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{4b0caa00-175c-4b16-8d6d-d1c174ee61d1}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{ea34b079-d980-4df9-a629-64c2cc1628a2}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{590b65e7-6fa5-4d68-b038-95ae20a58480}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{3bd17751-5fc4-4883-8d7c-d005c62d181d}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{78c6f9df-77b9-4a8d-901d-d7552b36916f}" />
+	<object class="MarkerTrack" id="{2e285c10-bf68-40d4-8ad7-5c2ba792eb8d}" />
+	<object class="Timeline" id="{4b0caa00-175c-4b16-8d6d-d1c174ee61d1}" />
+	<object class="SnapshotMasterTrack" id="{ea34b079-d980-4df9-a629-64c2cc1628a2}" />
+	<object class="SnapshotProperty" id="{590b65e7-6fa5-4d68-b038-95ae20a58480}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>4</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{7106e79e-919a-473d-ab92-6248eab477af}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{9ee78ecf-f27c-43e8-882d-61fa2b699185}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{3bd17751-5fc4-4883-8d7c-d005c62d181d}">
+		<relationship name="mixerStrip">
+			<destination>{9ee78ecf-f27c-43e8-882d-61fa2b699185}</destination>
+		</relationship>
+	</object>
+	<object class="SpectralSidechainModulator" id="{7106e79e-919a-473d-ab92-6248eab477af}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="amount">
+			<value>18</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{b4af0d51-2f41-4430-b9c8-3be5a42b50cd}</destination>
+		</relationship>
+	</object>
+</objects>

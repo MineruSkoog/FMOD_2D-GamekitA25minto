@@ -26,11 +26,15 @@
 		<relationship name="effects">
 			<destination>{46880329-6964-46da-8a45-fa19d8b183ad}</destination>
 			<destination>{eed67deb-fa2d-461f-b53a-1dc6b25bc436}</destination>
+			<destination>{f64b6f56-7009-48a4-aead-cab45f3248d0}</destination>
 			<destination>{70eca0c2-c1fb-481e-872b-f7e04bb94d85}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e8f3ec3e-49ab-4d0a-8b2e-43d82edf2685}" />
 	<object class="SpectralSidechain" id="{46880329-6964-46da-8a45-fa19d8b183ad}">
+		<property name="level">
+			<value>8</value>
+		</property>
 		<property name="minimumFrequency">
 			<value>60</value>
 		</property>
@@ -48,6 +52,17 @@
 		<property name="qualityA">
 			<value>0.644206941</value>
 		</property>
+	</object>
+	<object class="MixerSend" id="{f64b6f56-7009-48a4-aead-cab45f3248d0}">
+		<property name="level">
+			<value>-15.5</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{9943a6c2-2d04-4e0b-94d1-6f2da55b5029}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{70eca0c2-c1fb-481e-872b-f7e04bb94d85}" />
 </objects>
