@@ -164,6 +164,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<destination>{f6613143-1a31-4bac-a26a-b98e97e28ed2}</destination>
 			<destination>{f0f98980-f876-4575-888b-356552437144}</destination>
 			<destination>{d1e93185-3609-4517-8a74-29cd731fe322}</destination>
+			<destination>{1a23a51d-382c-43fd-a036-3f20a60624be}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2cab3084-937f-475e-a6e6-0e5a7d2e8d12}</destination>
@@ -199,6 +200,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<destination>{0934dbab-5f09-40ba-93e4-c50a0df16803}</destination>
 			<destination>{29bd6484-c20b-499d-a3c6-26ede114622d}</destination>
 			<destination>{f2a58b46-e614-4d52-aba3-94e9521f5c24}</destination>
+			<destination>{f7fbda0d-6877-406b-b6ed-552b92e0fbf6}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a5f9e98c-be2b-4714-bd0c-cca1cdc1fd5e}</destination>
@@ -241,6 +243,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<destination>{7de56921-931f-4e01-840d-8a19c5b98e1a}</destination>
 			<destination>{76264b7e-51f8-49f1-821f-d6e03108bafc}</destination>
 			<destination>{ffb569c7-1e7e-4bfb-a338-7f5438e4c23f}</destination>
+			<destination>{b015473a-c40d-4a5e-9e8c-9ca558e04453}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a58b7842-f1de-47be-8bc6-b7fe270cccbc}</destination>
@@ -961,7 +964,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 	</object>
 	<object class="TransitionSourceSound" id="{1e86ef1e-efcc-491e-92f4-db24a7fa5bc7}">
 		<property name="length">
-			<value>5.3333333333333233</value>
+			<value>3.3333333333333335</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{733fbd50-2102-4f11-ac49-97626e13110d}</destination>
@@ -1047,6 +1050,20 @@ Boss parameter activates guitars and increases the audio for lead synth.
 		<property name="length">
 			<value>5.333333333333333</value>
 		</property>
+	</object>
+	<object class="SingleSound" id="{1a23a51d-382c-43fd-a036-3f20a60624be}">
+		<property name="start">
+			<value>2.6666666666666741</value>
+		</property>
+		<property name="length">
+			<value>2.6666666666666594</value>
+		</property>
+		<relationship name="triggerConditions">
+			<destination>{49bac5b2-f3d1-4e8b-8053-1521797a30c5}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{c463d7a5-3510-4f96-a805-1c89f62dfe5a}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2cab3084-937f-475e-a6e6-0e5a7d2e8d12}">
 		<property name="name">
@@ -1244,7 +1261,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 	</object>
 	<object class="TransitionSourceSound" id="{b20727e8-e88b-453a-bc9f-ff2f212b630b}">
 		<property name="length">
-			<value>5.3333333333333233</value>
+			<value>3.3333333333333335</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{d9501814-c427-4232-a47a-0ffb5983cc8c}</destination>
@@ -1315,6 +1332,26 @@ Boss parameter activates guitars and increases the audio for lead synth.
 		<property name="length">
 			<value>5.333333333333333</value>
 		</property>
+	</object>
+	<object class="SingleSound" id="{f7fbda0d-6877-406b-b6ed-552b92e0fbf6}">
+		<property name="start">
+			<value>1.333333333333349</value>
+		</property>
+		<property name="length">
+			<value>2.6666666666666665</value>
+		</property>
+		<property name="volume">
+			<value>1.5</value>
+		</property>
+		<relationship name="triggerConditions">
+			<destination>{02a112cb-8d0e-4d5a-aceb-a51c740ce827}</destination>
+		</relationship>
+		<relationship name="fadeOutCurve">
+			<destination>{c99a6827-f117-4ae9-951b-32964f5c7ede}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{e3d3073f-520f-4c64-8d47-b24354861948}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a5f9e98c-be2b-4714-bd0c-cca1cdc1fd5e}">
 		<property name="volume">
@@ -1528,7 +1565,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 	</object>
 	<object class="TransitionSourceSound" id="{e66c8c65-16e3-41ad-bcc6-0a7eee51524f}">
 		<property name="length">
-			<value>5.3333333333333233</value>
+			<value>3.5100574712643677</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{ff02d62f-b9c5-4975-b500-3c3a2634134a}</destination>
@@ -1624,6 +1661,20 @@ Boss parameter activates guitars and increases the audio for lead synth.
 		<property name="length">
 			<value>5.333333333333333</value>
 		</property>
+	</object>
+	<object class="SingleSound" id="{b015473a-c40d-4a5e-9e8c-9ca558e04453}">
+		<property name="start">
+			<value>1.333333333333349</value>
+		</property>
+		<property name="length">
+			<value>2.666666666666667</value>
+		</property>
+		<relationship name="triggerConditions">
+			<destination>{6ddf789c-90bb-465c-a5ac-0a90407827d8}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{32a9a34a-dea4-4488-9b82-46bd7f398afe}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a58b7842-f1de-47be-8bc6-b7fe270cccbc}">
 		<property name="volume">
@@ -1872,7 +1923,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 	</object>
 	<object class="TransitionSourceSound" id="{fa35a2a7-bf4d-426a-a971-719fe72b2cb7}">
 		<property name="length">
-			<value>5.3333333333333233</value>
+			<value>4.7164750957854302</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{26b07ffc-7c41-482b-9053-7cceb0d36837}</destination>
@@ -4071,6 +4122,17 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<destination>{d1e93185-3609-4517-8a74-29cd731fe322}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterCondition" id="{49bac5b2-f3d1-4e8b-8053-1521797a30c5}">
+		<property name="minimum">
+			<value>4</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{a05e7496-007a-412e-b694-9b51a1c981a6}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{f78f71df-d87e-4754-a17d-420fa7edf019}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -4219,6 +4281,25 @@ Boss parameter activates guitars and increases the audio for lead synth.
 		</relationship>
 		<relationship name="relatedModule">
 			<destination>{f2a58b46-e614-4d52-aba3-94e9521f5c24}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{02a112cb-8d0e-4d5a-aceb-a51c740ce827}">
+		<property name="minimum">
+			<value>4</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{a05e7496-007a-412e-b694-9b51a1c981a6}</destination>
+		</relationship>
+	</object>
+	<object class="FadeCurve" id="{c99a6827-f117-4ae9-951b-32964f5c7ede}">
+		<relationship name="startPoint">
+			<destination>{a5f8930e-00c2-40b7-b007-347b479999b4}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{95493160-cdd9-4f5e-883b-0c7a10be099c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{a566bed5-6216-4a31-bb25-133fea2eb18e}">
@@ -4375,6 +4456,17 @@ Boss parameter activates guitars and increases the audio for lead synth.
 		</relationship>
 		<relationship name="relatedModule">
 			<destination>{ffb569c7-1e7e-4bfb-a338-7f5438e4c23f}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{6ddf789c-90bb-465c-a5ac-0a90407827d8}">
+		<property name="minimum">
+			<value>4</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{a05e7496-007a-412e-b694-9b51a1c981a6}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{96608ff2-06c7-42f2-9f74-36fea9491187}">
@@ -4967,6 +5059,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<destination>{a65bb5ef-dbd7-49ce-aafe-e8905257571a}</destination>
 			<destination>{717e5bf8-bcf0-414d-9298-e79b99f96dde}</destination>
 			<destination>{6ec97229-975f-42a0-a9d2-82cb569ed53f}</destination>
+			<destination>{dd18195f-31af-4378-b2bf-eeff9e25012f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{abd34104-e29c-40fc-abb1-e47c566de78d}" />
@@ -5278,6 +5371,9 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<destination>{4122641d-571a-4e72-b899-c97d5ef7cc6b}</destination>
 			<destination>{dc092459-56fa-4019-9a16-868f972aed44}</destination>
 			<destination>{a0487d2e-55bd-438c-8f63-d6fce4f9475d}</destination>
+			<destination>{1a23a51d-382c-43fd-a036-3f20a60624be}</destination>
+			<destination>{f7fbda0d-6877-406b-b6ed-552b92e0fbf6}</destination>
+			<destination>{b015473a-c40d-4a5e-9e8c-9ca558e04453}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionTimeline" id="{882f9a2f-fd57-4cc8-8ff7-5eabba12f1c1}">
@@ -5516,18 +5612,18 @@ Boss parameter activates guitars and increases the audio for lead synth.
 	</object>
 	<object class="AutomationPoint" id="{55f58ecc-646f-4e63-ae17-2bf475fc11cb}">
 		<property name="position">
-			<value>1.3333333333333333</value>
+			<value>0.66666666666665941</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.446846843</value>
+			<value>0.254719019</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{6ab8b649-c598-4489-912f-ea33203d679f}">
 		<property name="position">
-			<value>5.3333333333333233</value>
+			<value>3.3333333333333335</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -5773,7 +5869,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 	</object>
 	<object class="AutomationPoint" id="{6b0531fe-9a40-4e64-b16d-49ce39119f1b}">
 		<property name="position">
-			<value>0</value>
+			<value>1.9999999999999845</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -5784,7 +5880,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 	</object>
 	<object class="AutomationPoint" id="{cded8c97-bdce-4054-92f1-e54110c96250}">
 		<property name="position">
-			<value>5.3333333333333233</value>
+			<value>3.3333333333333335</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -5885,6 +5981,25 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<value>0</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{a5f8930e-00c2-40b7-b007-347b479999b4}">
+		<property name="position">
+			<value>3.3333333333333526</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{95493160-cdd9-4f5e-883b-0c7a10be099c}">
+		<property name="position">
+			<value>4.000000000000016</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ad53788d-57b6-4225-a27b-c9b7e6b64b94}" />
 	<object class="AutomationPoint" id="{7404f8da-715e-4606-a844-05eebf9175ef}">
 		<property name="position">
@@ -5964,18 +6079,18 @@ Boss parameter activates guitars and increases the audio for lead synth.
 	</object>
 	<object class="AutomationPoint" id="{bb0307d0-db1d-4580-9c11-edbffab8a0dc}">
 		<property name="position">
-			<value>1.3333333333333333</value>
+			<value>0</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.193929359</value>
+			<value>0.486154616</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{679ef62c-e4a9-4a18-a243-404f71af63b3}">
 		<property name="position">
-			<value>5.3333333333333233</value>
+			<value>3.5100574712643677</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -6248,7 +6363,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 	</object>
 	<object class="AutomationPoint" id="{80bd08d7-d9d3-4e0c-8fdc-807be3c8e7b1}">
 		<property name="position">
-			<value>1.3333333333333333</value>
+			<value>0.71647509578544022</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -6259,7 +6374,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 	</object>
 	<object class="AutomationPoint" id="{81d65b31-c514-4b04-ab9d-49fd7c5aa0e3}">
 		<property name="position">
-			<value>5.3333333333333233</value>
+			<value>4.7164750957854302</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -6378,7 +6493,7 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.0292389728</value>
+			<value>0.126200572</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{5c106238-9f16-43ea-8dc0-fba533b06c65}">
@@ -6878,8 +6993,8 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<destination>{1f7dd802-6544-4340-8cb9-d8d8103be40b}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{bbe00f8d-80ec-4f17-9a4a-677324dd93f6}</destination>
 			<destination>{0f7b18f2-12c3-4b6c-9475-1b6968b2ebf4}</destination>
+			<destination>{4e6491e1-3c87-48d5-8fa6-9d8c01aa0e9b}</destination>
 		</relationship>
 	</object>
 	<object class="TransceiverEffect" id="{b7972499-a611-4dbf-9776-52a81fa9647b}">
@@ -6943,6 +7058,14 @@ Boss parameter activates guitars and increases the audio for lead synth.
 		</property>
 		<property name="dryLevel">
 			<value>-80</value>
+		</property>
+	</object>
+	<object class="SpectralSidechain" id="{dd18195f-31af-4378-b2bf-eeff9e25012f}">
+		<property name="minimumFrequency">
+			<value>1900</value>
+		</property>
+		<property name="maximumFrequency">
+			<value>6000</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f1e145dc-3673-4379-84bd-43772862338b}" />
@@ -7084,20 +7207,20 @@ Boss parameter activates guitars and increases the audio for lead synth.
 			<value>-7</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{bbe00f8d-80ec-4f17-9a4a-677324dd93f6}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-48</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{0f7b18f2-12c3-4b6c-9475-1b6968b2ebf4}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>-3</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{4e6491e1-3c87-48d5-8fa6-9d8c01aa0e9b}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-22</value>
 		</property>
 	</object>
 </objects>

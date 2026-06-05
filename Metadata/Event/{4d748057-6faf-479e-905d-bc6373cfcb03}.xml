@@ -622,6 +622,9 @@
 		<property name="overrideRange">
 			<value>true</value>
 		</property>
+		<property name="panBlend">
+			<value>0.769999981</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{1d941ed8-a19d-4855-b5bf-4116a90cacb8}" />
 	<object class="AutomationPoint" id="{7e5e6844-0ca1-4ba6-8d59-61e60bdcd439}">

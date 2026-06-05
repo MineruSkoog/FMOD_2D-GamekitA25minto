@@ -24,11 +24,20 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{f3f000bd-e4a0-4cf5-ad6f-97d02e897268}">
 		<relationship name="effects">
+			<destination>{46880329-6964-46da-8a45-fa19d8b183ad}</destination>
 			<destination>{eed67deb-fa2d-461f-b53a-1dc6b25bc436}</destination>
 			<destination>{70eca0c2-c1fb-481e-872b-f7e04bb94d85}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e8f3ec3e-49ab-4d0a-8b2e-43d82edf2685}" />
+	<object class="SpectralSidechain" id="{46880329-6964-46da-8a45-fa19d8b183ad}">
+		<property name="minimumFrequency">
+			<value>60</value>
+		</property>
+		<property name="maximumFrequency">
+			<value>150</value>
+		</property>
+	</object>
 	<object class="MultibandEqEffect" id="{eed67deb-fa2d-461f-b53a-1dc6b25bc436}">
 		<property name="filterTypeA">
 			<value>5</value>
