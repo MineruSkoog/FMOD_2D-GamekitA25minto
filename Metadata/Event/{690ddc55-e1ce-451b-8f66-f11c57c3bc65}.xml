@@ -2,7 +2,9 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{690ddc55-e1ce-451b-8f66-f11c57c3bc65}">
 		<property name="note">
-			<value>Where music progression lays, Uses Horizantal value between 0-10 to progress the music
+			<value>IMPORTANT READ MUSIC FOLDER BEFORE
+
+Where music progression lays, Uses Horizantal value between 0-10 to progress the music
 1- leave intro
 2 - leave main to motif
 3 - return from Breakdown to main
@@ -511,7 +513,6 @@ Enemy distance - slight increase in volume for certain stems by self made script
 			<destination>{7e4918b7-6a4d-4408-8766-b539648c7b3e}</destination>
 			<destination>{89f3ea8a-8cce-4c17-bf1d-f0b31b02ecff}</destination>
 			<destination>{49d1648b-1b2c-4a88-9d84-abf13819de96}</destination>
-			<destination>{e31a3b31-efe7-4c61-b517-8534043c41a0}</destination>
 			<destination>{e5372913-7723-4b68-a83f-17edd6e1ff80}</destination>
 			<destination>{19a107a8-a3ef-4858-b19d-b3679982a151}</destination>
 		</relationship>
@@ -618,7 +619,6 @@ Enemy distance - slight increase in volume for certain stems by self made script
 			<destination>{4d61adc1-89bd-4f3d-b772-e04e277e2171}</destination>
 			<destination>{fd5ed760-dce2-4bd3-ac38-9dd523420a8c}</destination>
 			<destination>{5a59e4d5-3fc2-48ec-a55a-fd4f6948a208}</destination>
-			<destination>{e31a3b31-efe7-4c61-b517-8534043c41a0}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{d6a1c361-d517-4eec-80e1-d85481af3ae7}</destination>
@@ -3291,7 +3291,7 @@ Enemy distance - slight increase in volume for certain stems by self made script
 	</object>
 	<object class="CommandSound" id="{77e5de82-11ab-4325-8883-5d534e142619}">
 		<property name="start">
-			<value>13.333333333333334</value>
+			<value>8.5694974429943169</value>
 		</property>
 		<property name="length">
 			<value>1.3333333333333295</value>
@@ -3417,14 +3417,6 @@ Enemy distance - slight increase in volume for certain stems by self made script
 		<relationship name="commandTarget">
 			<destination>{d3c6e21a-fa51-4926-9e88-026a3e8b4a82}</destination>
 		</relationship>
-	</object>
-	<object class="CommandSound" id="{e31a3b31-efe7-4c61-b517-8534043c41a0}">
-		<property name="start">
-			<value>8.6666666666666661</value>
-		</property>
-		<property name="length">
-			<value>3.666666666666667</value>
-		</property>
 	</object>
 	<object class="TransitionSourceSound" id="{e5372913-7723-4b68-a83f-17edd6e1ff80}">
 		<property name="length">

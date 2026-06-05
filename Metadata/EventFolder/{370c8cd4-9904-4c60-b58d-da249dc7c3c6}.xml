@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{370c8cd4-9904-4c60-b58d-da249dc7c3c6}">
+		<property name="note">
+			<value>Hey, Mineru here this is the end product for the assignment. 
+I invested a bit too much on the compositional and recording side making the quality of implimentation   being somewhat lacking in comparison. This assignment importance came from learning implimentation and not necassarily making "quality" music.
+
+Anywho. because of my lack of time spent in FMOD and unity there will be an amount of either problems quirks or things I could've don differently but would not be able to fix until this project is due. 
+
+Some of the problems I know includes:
+
+Starting from the start scene is the only way to get full music experience, the way I've set things up with the transitions and structure doesn't really "fit" this type of game. It would be better adapted for a type of racing game where zones change music progressively.
+It is *possible* to start in zone 4 since it's a seperate Event but causes overlapping issues if you go into the boss scene later since the FadeOut parameter isn't global.
+
+"Enemy distance" doesn't seem to work properly on enemies with the script I made, it uses the same as KeyLocater which basically just calculates the distance between (Ellen) and (object) to increase or decrease a parameter.
+
+Potential overlapping  with stingers during key changes. Tried a bunch of solutions but eventually spent my time elsewhere to save more time for other things.
+
+And that's the main issues I can name on top of my head in FMOD, possibly a few convoluted solutions to certain things in UNITY too. 
+
+If you want to check some of my *mediocre* scripts they're Located at "SelfMadeScripts"</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>
