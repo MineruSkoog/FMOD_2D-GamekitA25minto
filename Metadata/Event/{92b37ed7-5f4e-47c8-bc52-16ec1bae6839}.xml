@@ -75,6 +75,9 @@
 		<property name="voiceStealing">
 			<value>3</value>
 		</property>
+		<property name="triggerCooldown">
+			<value>6000</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{f90bb631-4bb9-430b-aa1b-161bbd4636b8}" />
 	<object class="GroupTrack" id="{48914660-3592-4f8e-b3f4-5c9c8b0a4640}">

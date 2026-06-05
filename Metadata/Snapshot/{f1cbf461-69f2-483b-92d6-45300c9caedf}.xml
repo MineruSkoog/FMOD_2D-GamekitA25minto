@@ -2,10 +2,11 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{f1cbf461-69f2-483b-92d6-45300c9caedf}">
 		<property name="note">
-			<value>Affects pitch slightly to give a "drunk and vulnerable feeling" when on low health</value>
+			<value>Affects pitch slightly to give a "drunk and vulnerable feeling" when hurt
+</value>
 		</property>
 		<property name="name">
-			<value>Low Health</value>
+			<value>Hurt</value>
 		</property>
 		<property name="behavior">
 			<value>1</value>

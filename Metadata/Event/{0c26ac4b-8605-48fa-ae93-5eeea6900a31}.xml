@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0c26ac4b-8605-48fa-ae93-5eeea6900a31}">
 		<property name="note">
-			<value>BossTheme seperated - adds guitar to represent boss</value>
+			<value>BossTheme seperated - adds guitar to represent boss and intensity</value>
 		</property>
 		<property name="color">
 			<value>Magenta</value>

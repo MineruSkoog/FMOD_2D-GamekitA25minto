@@ -25,10 +25,13 @@
 		<relationship name="snapshotProperties">
 			<destination>{590b65e7-6fa5-4d68-b038-95ae20a58480}</destination>
 			<destination>{b8f5fe5c-e0ce-427e-a0cc-4163883ddb5a}</destination>
+			<destination>{742837a1-e178-40f7-8a88-6bc1e6cd0f8f}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{3bd17751-5fc4-4883-8d7c-d005c62d181d}</destination>
 			<destination>{4107876d-6d70-43f1-b4cc-6afa4eafb4ac}</destination>
+			<destination>{8e1f1f4a-fdd7-40cf-8eea-152a133c533d}</destination>
+			<destination>{7bb1a401-d21b-4eb8-8325-91e2149f1655}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{78c6f9df-77b9-4a8d-901d-d7552b36916f}" />
@@ -66,6 +69,17 @@
 			<destination>{9943a6c2-2d04-4e0b-94d1-6f2da55b5029}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotProperty" id="{742837a1-e178-40f7-8a88-6bc1e6cd0f8f}">
+		<property name="propertyName">
+			<value>level</value>
+		</property>
+		<property name="value">
+			<value>-31</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{211e30ec-3fe9-4b2d-937e-c2896be6e95d}</destination>
+		</relationship>
+	</object>
 	<object class="SnapshotTrack" id="{3bd17751-5fc4-4883-8d7c-d005c62d181d}">
 		<relationship name="mixerStrip">
 			<destination>{9ee78ecf-f27c-43e8-882d-61fa2b699185}</destination>
@@ -77,6 +91,16 @@
 		</relationship>
 		<relationship name="mixerStrip">
 			<destination>{9943a6c2-2d04-4e0b-94d1-6f2da55b5029}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{8e1f1f4a-fdd7-40cf-8eea-152a133c533d}">
+		<relationship name="mixerStrip">
+			<destination>{0c002ced-501d-4cf0-8945-4392fda70e5f}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{7bb1a401-d21b-4eb8-8325-91e2149f1655}">
+		<relationship name="mixerStrip">
+			<destination>{5d75d1bb-8d4e-40b6-ac88-8753ca7fcb94}</destination>
 		</relationship>
 	</object>
 	<object class="SpectralSidechainModulator" id="{7106e79e-919a-473d-ab92-6248eab477af}">
@@ -122,7 +146,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-19</value>
+			<value>-17.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{ee097ef8-4582-4b28-833f-7ed7db26281f}">
@@ -130,7 +154,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-4</value>
+			<value>-2.5</value>
 		</property>
 	</object>
 </objects>

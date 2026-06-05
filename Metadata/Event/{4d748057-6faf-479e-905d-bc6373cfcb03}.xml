@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{4d748057-6faf-479e-905d-bc6373cfcb03}">
+		<property name="note">
+			<value>Uses MusicDistanceController to increase volume of  the stems.
+Uses parameter "TonalChecker" Meant to check where the listener is in the song to play a stinger which sticks to the current tonal center.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>
@@ -15,6 +19,7 @@
 		</relationship>
 		<relationship name="tags">
 			<destination>{2aec8b81-b56a-453c-9a87-81edafc52e47}</destination>
+			<destination>{f0c6d814-7ed5-4f4c-ba5b-cfc472b70518}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{76d9c826-a2ba-4178-b903-9096ee7fb6cf}</destination>
@@ -79,6 +84,9 @@
 		</property>
 		<property name="voiceStealing">
 			<value>3</value>
+		</property>
+		<property name="triggerCooldown">
+			<value>5600</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{cb90c1f5-1629-4749-891b-41b4a6a1376d}" />

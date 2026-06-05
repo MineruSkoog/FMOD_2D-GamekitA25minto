@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7c14c51c-8a48-4251-9b79-a72875d23f34}">
 		<property name="note">
-			<value>Uses a parameter which aims to increase volume when going deeper in the menu. Made for the sake of understanding the logic on how to do so.
+			<value>Uses a parameter which aims to increase volume when going deeper in the menu. Made for the sake of understanding the logic on how to do so. Applied with selfmade script in unity called DepthCheckerMenu
 </value>
 		</property>
 		<property name="color">
@@ -782,8 +782,8 @@
 			<destination>{544edd92-1f4e-40e0-a6c8-2c84ab203b84}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{1413fb27-5563-44c7-98d1-2fdcab2226e9}</destination>
 			<destination>{f93005d5-1189-4928-8c36-863fd485eaa8}</destination>
+			<destination>{5c452bd3-f950-433a-8273-7a2b234185f1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d688202d-e926-4921-96d9-36b2479a185c}" />
@@ -829,10 +829,10 @@
 	<object class="MixerBusFader" id="{d7e7394f-8ac6-4754-a668-a17efadcd62a}" />
 	<object class="AutomationPoint" id="{dff6b365-2d1e-4c60-ab39-9850f108b37d}">
 		<property name="position">
-			<value>0.33333333333333331</value>
+			<value>0.55000000000000004</value>
 		</property>
 		<property name="value">
-			<value>5</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{87231e5c-b919-42bc-a907-98c235dc26d9}">
@@ -851,7 +851,7 @@
 			<value>0.45000000000000001</value>
 		</property>
 		<property name="value">
-			<value>-4</value>
+			<value>-7</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8000f272-4d2e-4b9f-ac83-155dad9444e8}">
@@ -865,23 +865,23 @@
 			<value>-0.0703898221</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{1413fb27-5563-44c7-98d1-2fdcab2226e9}">
-		<property name="position">
-			<value>0.0065681444991789817</value>
-		</property>
-		<property name="value">
-			<value>3.81469727e-06</value>
-		</property>
-		<property name="curveShape">
-			<value>0.999999821</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{f93005d5-1189-4928-8c36-863fd485eaa8}">
 		<property name="position">
 			<value>0.75</value>
 		</property>
 		<property name="value">
-			<value>7</value>
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{5c452bd3-f950-433a-8273-7a2b234185f1}">
+		<property name="position">
+			<value>0.017241379310344827</value>
+		</property>
+		<property name="value">
+			<value>-13</value>
+		</property>
+		<property name="curveShape">
+			<value>-1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{0530b720-36ab-4cb4-aa86-331121821333}">
@@ -889,26 +889,26 @@
 			<value>0.0065681444991789817</value>
 		</property>
 		<property name="value">
-			<value>-5</value>
+			<value>-8</value>
 		</property>
 		<property name="curveShape">
-			<value>-1</value>
+			<value>0.168419525</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{78c73171-e5e1-44d4-bdd5-67fefcd50a84}">
 		<property name="position">
-			<value>0.75</value>
+			<value>0.85999999999999999</value>
 		</property>
 		<property name="value">
-			<value>7</value>
+			<value>4</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{54d1fbb5-75ac-4a90-a83b-c87c6331ce5d}">
 		<property name="position">
-			<value>0.83000000000000007</value>
+			<value>0.28999999999999998</value>
 		</property>
 		<property name="value">
-			<value>6</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{40a50711-8ce6-4d6f-a1d7-1dac46a0b923}">
