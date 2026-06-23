@@ -480,6 +480,7 @@ Enemy distance - slight increase in volume for certain stems by self made script
 			<destination>{09a29fb3-88e2-423a-a30d-cd16c4f0dfa6}</destination>
 			<destination>{5b9c7556-afe4-4c56-b440-0f156282599a}</destination>
 			<destination>{3e80dbc4-1917-424f-bba2-e06ce32550a2}</destination>
+			<destination>{2a56112d-9d29-4891-9477-5a115d21ef5c}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{37102b10-54b0-4ff5-aeec-393640bee8ee}</destination>
@@ -619,6 +620,7 @@ Enemy distance - slight increase in volume for certain stems by self made script
 			<destination>{4d61adc1-89bd-4f3d-b772-e04e277e2171}</destination>
 			<destination>{fd5ed760-dce2-4bd3-ac38-9dd523420a8c}</destination>
 			<destination>{5a59e4d5-3fc2-48ec-a55a-fd4f6948a208}</destination>
+			<destination>{2a56112d-9d29-4891-9477-5a115d21ef5c}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{d6a1c361-d517-4eec-80e1-d85481af3ae7}</destination>
@@ -3163,6 +3165,26 @@ Enemy distance - slight increase in volume for certain stems by self made script
 			<value>0</value>
 		</property>
 	</object>
+	<object class="CommandSound" id="{2a56112d-9d29-4891-9477-5a115d21ef5c}">
+		<property name="start">
+			<value>5.333333333333333</value>
+		</property>
+		<property name="length">
+			<value>72.020839002267593</value>
+		</property>
+		<property name="name">
+			<value>StopIntro</value>
+		</property>
+		<property name="commandType">
+			<value>3</value>
+		</property>
+		<relationship name="triggerConditions">
+			<destination>{11584e9b-5cde-48ef-afde-3adebe714876}</destination>
+		</relationship>
+		<relationship name="commandTarget">
+			<destination>{8488e67c-b6d9-4c71-b625-0523a4fda261}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{37102b10-54b0-4ff5-aeec-393640bee8ee}">
 		<property name="volume">
 			<value>-7.5</value>
@@ -5005,6 +5027,17 @@ Enemy distance - slight increase in volume for certain stems by self made script
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{38809522-ffb0-40ee-b9e8-482a3d6022ca}" />
+	<object class="ParameterCondition" id="{11584e9b-5cde-48ef-afde-3adebe714876}">
+		<property name="minimum">
+			<value>10</value>
+		</property>
+		<property name="maximum">
+			<value>10</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{a05e7496-007a-412e-b694-9b51a1c981a6}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{bd18b23f-2870-4989-b075-e22098395cae}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -7001,7 +7034,7 @@ Enemy distance - slight increase in volume for certain stems by self made script
 			<value>0.0070621468926553672</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>-3.5</value>
 		</property>
 		<property name="curveShape">
 			<value>0.101784699</value>
