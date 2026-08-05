@@ -516,6 +516,7 @@ Enemy distance - slight increase in volume for certain stems by self made script
 			<destination>{49d1648b-1b2c-4a88-9d84-abf13819de96}</destination>
 			<destination>{e5372913-7723-4b68-a83f-17edd6e1ff80}</destination>
 			<destination>{19a107a8-a3ef-4858-b19d-b3679982a151}</destination>
+			<destination>{0810eb54-ac15-4d1f-87c7-899be5eb293e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{77d47b34-9e3f-4238-89d9-9ab47022c410}</destination>
@@ -621,6 +622,7 @@ Enemy distance - slight increase in volume for certain stems by self made script
 			<destination>{fd5ed760-dce2-4bd3-ac38-9dd523420a8c}</destination>
 			<destination>{5a59e4d5-3fc2-48ec-a55a-fd4f6948a208}</destination>
 			<destination>{2a56112d-9d29-4891-9477-5a115d21ef5c}</destination>
+			<destination>{0810eb54-ac15-4d1f-87c7-899be5eb293e}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{d6a1c361-d517-4eec-80e1-d85481af3ae7}</destination>
@@ -3260,6 +3262,9 @@ Enemy distance - slight increase in volume for certain stems by self made script
 		<property name="targetValue">
 			<value>1</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{d8964a5f-7276-4b9c-b811-11f3a77e945f}</destination>
+		</relationship>
 		<relationship name="commandTarget">
 			<destination>{d3c6e21a-fa51-4926-9e88-026a3e8b4a82}</destination>
 		</relationship>
@@ -3280,6 +3285,9 @@ Enemy distance - slight increase in volume for certain stems by self made script
 		<property name="targetValue">
 			<value>2</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{3ef89e19-6dbe-4a5c-b0a4-851daec97f92}</destination>
+		</relationship>
 		<relationship name="commandTarget">
 			<destination>{d3c6e21a-fa51-4926-9e88-026a3e8b4a82}</destination>
 		</relationship>
@@ -3297,6 +3305,9 @@ Enemy distance - slight increase in volume for certain stems by self made script
 		<property name="commandType">
 			<value>3</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{135e47de-4b6e-4a5b-b275-e6c4efed284a}</destination>
+		</relationship>
 		<relationship name="commandTarget">
 			<destination>{d3c6e21a-fa51-4926-9e88-026a3e8b4a82}</destination>
 		</relationship>
@@ -3324,6 +3335,9 @@ Enemy distance - slight increase in volume for certain stems by self made script
 		<property name="commandType">
 			<value>3</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{173fc593-e331-4037-ba5d-402dffb2b832}</destination>
+		</relationship>
 		<relationship name="commandTarget">
 			<destination>{d3c6e21a-fa51-4926-9e88-026a3e8b4a82}</destination>
 		</relationship>
@@ -3452,6 +3466,26 @@ Enemy distance - slight increase in volume for certain stems by self made script
 		<property name="length">
 			<value>0</value>
 		</property>
+	</object>
+	<object class="CommandSound" id="{0810eb54-ac15-4d1f-87c7-899be5eb293e}">
+		<property name="start">
+			<value>56</value>
+		</property>
+		<property name="length">
+			<value>5.333333333333333</value>
+		</property>
+		<property name="commandType">
+			<value>3</value>
+		</property>
+		<property name="targetValue">
+			<value>3</value>
+		</property>
+		<relationship name="triggerConditions">
+			<destination>{b44d49c1-e595-40ae-8765-32b5d2893002}</destination>
+		</relationship>
+		<relationship name="commandTarget">
+			<destination>{d3c6e21a-fa51-4926-9e88-026a3e8b4a82}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{77d47b34-9e3f-4238-89d9-9ab47022c410}">
 		<property name="name">
@@ -5057,6 +5091,50 @@ Enemy distance - slight increase in volume for certain stems by self made script
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{abd34104-e29c-40fc-abb1-e47c566de78d}" />
+	<object class="ParameterCondition" id="{d8964a5f-7276-4b9c-b811-11f3a77e945f}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{230a8048-0a92-44da-9470-c06b38541aea}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{3ef89e19-6dbe-4a5c-b0a4-851daec97f92}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{230a8048-0a92-44da-9470-c06b38541aea}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{135e47de-4b6e-4a5b-b275-e6c4efed284a}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{230a8048-0a92-44da-9470-c06b38541aea}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{173fc593-e331-4037-ba5d-402dffb2b832}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{230a8048-0a92-44da-9470-c06b38541aea}</destination>
+		</relationship>
+	</object>
 	<object class="ParameterCondition" id="{62812568-64f0-41cf-853f-13b3dafb7431}">
 		<property name="minimum">
 			<value>10</value>
@@ -5066,6 +5144,17 @@ Enemy distance - slight increase in volume for certain stems by self made script
 		</property>
 		<relationship name="parameter">
 			<destination>{a05e7496-007a-412e-b694-9b51a1c981a6}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{b44d49c1-e595-40ae-8765-32b5d2893002}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{230a8048-0a92-44da-9470-c06b38541aea}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{f7349cee-737e-45d7-9562-4074004bce84}">

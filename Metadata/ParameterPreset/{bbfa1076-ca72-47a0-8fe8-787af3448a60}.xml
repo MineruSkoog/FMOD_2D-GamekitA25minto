@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{bbfa1076-ca72-47a0-8fe8-787af3448a60}">
+		<property name="name">
+			<value>StingerIsPlayed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{bf1d6ce5-9932-4b55-80a7-6c0c71b1b248}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{230a8048-0a92-44da-9470-c06b38541aea}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{230a8048-0a92-44da-9470-c06b38541aea}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="velocity">
+			<value>-0.079999998211860657</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
